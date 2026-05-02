@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use BGPO in your research, please cite this manuscript."
+title: "Boundary-Guided Sample Selection from a Composite Synthetic Pool for Imbalanced Classification"
+authors:
+  - family-names: "Kaya"
+    given-names: "Ersin"
+  - family-names: "Korkmaz"
+    given-names: "Sedat"
+  - family-names: "Şahman"
+    given-names: "Mehmet Akif"
+version: "0.1.0"
+date-released: "2026-05-02"

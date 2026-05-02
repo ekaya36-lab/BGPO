@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bgpo"
+version = "0.1.0"
+description = "Boundary-Guided Composite Pool Oversampling for imbalanced classification"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Ersin Kaya"},
+    {name = "Sedat Korkmaz"},
+    {name = "Mehmet Akif Sahman"}
+]
+keywords = [
+    "imbalanced-learning",
+    "oversampling",
+    "smote",
+    "boundary-guided-selection",
+    "machine-learning"
+]
+dependencies = [
+    "numpy>=1.23",
+    "scikit-learn>=1.2",
+    "smote-variants>=0.7.3"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bgpo*"]
