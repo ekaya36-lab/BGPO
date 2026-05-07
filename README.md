@@ -86,16 +86,3 @@ BGPO/
 └── CITATION.cff
 ```
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```text
-Kaya, E., Korkmaz, S., & Şahman, M. A.
-Boundary-Guided Sample Selection from a Composite Synthetic Pool for Imbalanced Classification.
-Manuscript under review.
-```
-
-## License
-
-This project is released under the MIT License.
